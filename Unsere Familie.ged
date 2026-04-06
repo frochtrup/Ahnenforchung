@@ -8,8 +8,8 @@
 2 CORP Ancestris-Team
 3 ADDR https://www.ancestris.org
 1 DEST ANY
-1 DATE 5 APR 2026
-2 TIME 01:13:07
+1 DATE 6 APR 2026
+2 TIME 15:08:46
 1 SUBM @S0@
 1 FILE Unsere Familie.ged
 1 CHAR UTF-8
@@ -69,7 +69,7 @@
 4 LATI N51.4107
 4 LONG W3.48632
 2 SOUR @S2@
-1 EVEN International Baccalaureate
+1 GRAD International Baccalaureate
 2 TYPE Grad
 2 DATE 30 JUN 1986
 2 PLAC , Llantwit Major, , The Vale of Glamorgan, Wales, Vereinigtes Königreich
@@ -85,7 +85,7 @@
 4 LATI N48.13743
 4 LONG E11.57549
 2 SOUR @S2@
-1 EVEN Dipl.-Ing. Elektrotechnik und Informationstechnik (TU München)
+1 GRAD Dipl.-Ing. Elektrotechnik und Informationstechnik (TU München)
 2 TYPE Grad
 2 DATE 31 MAR 1992
 2 PLAC , München, , , Bayern, Deutschland
@@ -93,7 +93,7 @@
 4 LATI N48.13743
 4 LONG E11.57549
 2 SOUR @S2@
-1 EVEN Dr.-Ing.
+1 GRAD Dr.-Ing.
 2 TYPE Grad
 2 DATE 14 DEC 2009
 2 PLAC , München, , , Bayern, Deutschland
@@ -306,7 +306,7 @@
 3 MAP
 4 LATI N52.216667
 4 LONG E7.183333
-1 EVEN "Reife"
+1 GRAD "Reife"
 2 TYPE Grad
 2 DATE 22 JAN 1946
 2 PLAC , Rheine, , , Nordrhein-Westfalen, Deutschland
@@ -336,6 +336,7 @@
 2 PEDI birth
 2 SOUR @S47@
 1 FAMS @F1@
+1 FAMS @F566052323@
 1 OBJE
 2 FILE Pictures/MarianneDecker1996.jpg
 3 FORM JPEG
@@ -429,7 +430,7 @@
 4 LONG E7.01344
 1 RELI röm.-kath.
 2 SOUR @S3@
-1 EVEN Abschluss der Mittelschule
+1 GRAD Abschluss der Mittelschule
 2 TYPE Schule
 2 DATE 21 MAR 1951
 2 PLAC , Cloppenburg, , , Niedersachsen, Deutschland
@@ -437,7 +438,7 @@
 4 LATI N52.84748
 4 LONG E8.04625
 2 NOTE Staatliches Clemens-August-Gymnasium
-1 EVEN Abschluss Höhere Handelsschule
+1 GRAD Abschluss Höhere Handelsschule
 2 TYPE Schule
 2 DATE 3 MAR 1952
 2 PLAC , Cloppenburg, , , Niedersachsen, Deutschland
@@ -445,10 +446,10 @@
 4 LATI N52.84748
 4 LONG E8.04625
 2 NOTE Handelslehranstalt des Landkreises Cloppenburg
-1 EVEN Textilingenieur, später Ing (grad.) später Dipl.-Ing.
+1 GRAD Textilingenieur, später Ing (grad.) später Dipl.-Ing.
 2 TYPE Grad
 2 DATE 26 FEB 1957
-2 PLAC , Mönchengladbach, , , , 
+2 PLAC , Mönchengladbach, , , ,
 3 MAP
 4 LATI N51.1958
 4 LONG E6.4387
@@ -500,12 +501,14 @@
 3 MAP
 4 LATI N51.48165
 4 LONG E7.21648
-1 EVEN 1. Staatsexamen
+1 GRAD 1. Staatsexamen
 2 TYPE Grad
 2 DATE 29 SEP 1976
-1 EVEN Assessor des Lehramts an berufsbildenen Schulen
+2 PLAC
+1 GRAD Assessor des Lehramts an berufsbildenen Schulen
 2 TYPE Grad
 2 DATE 6 JUN 1978
+2 PLAC
 2 NOTE 2. Staatsprüfung mit Lehrbefähigung für
 3 CONT    Wirtschaft/Verwaltung und Geschichte/Politik/Recht
 1 EVEN Berufsbildenen Schulen Ahaus
@@ -599,10 +602,10 @@
 4 LATI N52.216667
 4 LONG E7.183333
 2 SOUR @S2@
-1 EVEN Abitur
+1 GRAD Abitur
 2 TYPE Grad
 2 DATE 1983
-2 PLAC , Ochtrup, , , , 
+2 PLAC , Ochtrup, , , ,
 3 MAP
 4 LATI N52.216667
 4 LONG E7.183333
@@ -610,14 +613,6 @@
 1 EVEN Friedrich-Alexander-Universität: Studium der Informatik mit Schwerpunkt Theoretische Informatik
 2 TYPE Hochschule
 2 DATE BET 1983 AND 1990
-2 PLAC , Erlangen, , Mittelfranken, Bayern, Deutschland
-3 MAP
-4 LATI N49.59099
-4 LONG E11.00783
-2 SOUR @S2@
-1 GRAD
-2 TYPE Diplom-Informatiker
-2 DATE 1990
 2 PLAC , Erlangen, , Mittelfranken, Bayern, Deutschland
 3 MAP
 4 LATI N49.59099
@@ -633,6 +628,9 @@
 2 SOUR @S2@
 1 OCCU Dipl.-Informatiker
 2 SOUR @S2@
+1 GRAD Dipl.-Inf.
+2 DATE 1990
+2 PLAC , Erlangen, , Mittelfranken, Bayern, Deutschland
 1 FAMC @F1@
 2 PEDI birth
 2 SOUR @S2@
@@ -676,7 +674,7 @@
 2 SOUR @S2@
 1 OCCU Luft- und Raumfahrtingenieur
 2 SOUR @S2@
-1 EVEN Promotion zum Dr-Ing
+1 GRAD Promotion zum Dr-Ing
 2 TYPE Grad
 2 DATE 2003
 2 PLAC , München, , , Bayern, Deutschland
@@ -1162,6 +1160,7 @@
 1 FAMC @F416@
 2 PEDI birth
 2 SOUR @S6@
+3 QUAY 3
 1 FAMS @F2@
 1 OBJE
 2 TITL Fanny Decker, geb. Arck
@@ -2879,9 +2878,10 @@
 2 SOUR @S56@
 1 RELI röm. kath.
 2 SOUR @S56@
-1 EVEN Priester
+1 ORDN Priester
 2 TYPE Weihe
 2 DATE 25 JUL 1956
+2 PLAC
 2 SOUR @S56@
 1 EVEN
 2 TYPE Alt. Tod
@@ -2994,7 +2994,7 @@
 2 SOUR @S9@
 1 RELI röm. kath.
 2 SOUR @S57@
-1 EVEN Priester
+1 ORDN Priester
 2 TYPE Weihe
 2 DATE 3 AUG 1927
 2 PLAC , Köln, , , , Deutschland
@@ -5979,6 +5979,10 @@
 2 SOUR @S116@
 1 DEAT
 2 DATE 12 SEP 2011
+2 SOUR @S116@
+1 BURI
+2 DATE 23 SEP 2011
+2 PLAC , Münster, , , , Deutschland
 2 SOUR @S116@
 1 FAMS @F81@
 1 _UID 639B0190BE9C4C9EB66379DA67D0D19FE68F
@@ -26157,7 +26161,7 @@
 1 SEX F
 1 BIRT
 2 DATE 29 MAY 1853
-2 PLAC Ochtrup, , , , , 
+2 PLAC , Ochtrup
 2 SOUR @S136@
 1 DEAT
 2 DATE 1944
@@ -34816,6 +34820,7 @@
 1 FAMC @F197@
 2 PEDI birth
 2 SOUR @S45@
+3 QUAY 2
 2 SOUR @S43@
 1 FAMS @F525806167@
 1 FAMS @F416@
@@ -65221,6 +65226,27 @@
 1 CHAN
 2 DATE 24 MAR 2026
 3 TIME 20:40:12
+0 @I566052322@ INDI
+1 NAME Benno /Matthesen/
+2 GIVN Benno
+2 SURN Matthesen
+1 RESN confidential
+1 SEX M
+1 DEAT
+2 DATE ABT 2018
+2 PLAC Borghorst, , , ,
+1 OCCU Architekt
+2 DATE
+2 PLAC Borghorst, , , ,
+1 RESI
+2 DATE
+2 PLAC Borghorst, , , ,
+2 ADDR Oststrasse 5
+3 CONT Borghorst
+1 FAMS @F566052323@
+1 CHAN
+2 DATE 5 APR 2026
+3 TIME 21:18:32
 0 @F1@ FAM
 1 HUSB @I3@
 1 WIFE @I2@
@@ -77530,6 +77556,22 @@
 1 CHAN
 2 DATE 24 MAR 2026
 3 TIME 20:41:09
+0 @F566052323@ FAM
+1 HUSB @I566052322@
+1 WIFE @I2@
+1 MARR
+2 DATE ABT 1952
+2 PLAC
+1 ENGA
+2 DATE 2 SEP 1951
+2 PLAC
+2 SOUR @S566052324@
+1 DIV
+2 DATE ABT 1952
+2 PLAC
+1 CHAN
+2 DATE 5 APR 2026
+3 TIME 21:19:07
 0 @S103@ SOUR
 1 ABBR Adressbuch Kreis Steinfurt 1951
 1 TITL Adressbuch Kreis Steinfurt 1951
@@ -78245,19 +78287,19 @@
 2 DATE 3 APR 2026
 3 TIME 12:03:29
 0 @S116@ SOUR
-1 ABBR Todesanzeige Maria Weimar
-1 TITL Todesanzeige Maria Weimar
+1 ABBR Todesanzeige Karin Weimar
+1 TITL Todesanzeige Karin Weimar
 1 PUBL Todesanzeige Maria Weimar
 1 OBJE
-2 TITL Todesanzeige Maria Weimar
+2 TITL Todesanzeige Karin Weimar
 2 FILE Documents/TodesanzeigeKarinWeimar.pdf
-3 FORM pdf
+3 FORM FILE
 4 TYPE DOC
 2 _SCBK Y
 2 _PRIM Y
 1 CHAN
-2 DATE 3 APR 2026
-3 TIME 12:03:29
+2 DATE 6 APR 2026
+3 TIME 13:45:07
 0 @S22@ SOUR
 1 ABBR Todesanzeige Theresia Albers
 1 TITL Todesanzeige Theresia Albers
@@ -79475,6 +79517,22 @@
 1 CHAN
 2 DATE 4 APR 2026
 3 TIME 13:15:18
+0 @S566052324@ SOUR
+1 ABBR Verlobungsanzeige Ransmann Matthesen
+1 TITL Verlobungsanzeige Marianne Ransmann und Benno Matthesen 1951
+1 DATE 1952
+1 REPO @R01@
+1 OBJE
+2 FILE Documents/VerlobungsanzeigeBennoMatthesen.BMP
+3 FORM FILE
+3 TITL Verlobungsanzeige links
+1 OBJE
+2 FILE Documents/VerlobungsanzeigeBennoMatthesen1.BMP
+3 FORM FILE
+3 TITL Verlobungsanzeige rechts
+1 CHAN
+2 DATE 5 APR 2026
+3 TIME 21:23:10
 0 @R22@ REPO
 1 NAME Oldenburger Auswanderer
 1 ADDR Oldenburger Auswanderer
